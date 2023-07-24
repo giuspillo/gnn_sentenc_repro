@@ -1,0 +1,1 @@
+{'config': 'drop_att', 'dataset': 'dbbook', 'graph_enc': 'CompGCN', 'k': 384, 'sentence_enc': 'sota_minilm-l12-v1', 'drop_value': 0.7}

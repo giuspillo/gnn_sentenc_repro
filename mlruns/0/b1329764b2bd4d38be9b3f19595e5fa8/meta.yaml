@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/b1329764b2bd4d38be9b3f19595e5fa8/artifacts
+deleted_time: 1690140273544
+end_time: 1690139368212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b1329764b2bd4d38be9b3f19595e5fa8
+run_name: languid-whale-102
+run_uuid: b1329764b2bd4d38be9b3f19595e5fa8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690139368204
+status: 3
+tags: []
+user_id: giuse

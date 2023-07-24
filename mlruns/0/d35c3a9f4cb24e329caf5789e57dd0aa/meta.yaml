@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/d35c3a9f4cb24e329caf5789e57dd0aa/artifacts
+deleted_time: 1690140273540
+end_time: 1690140106821
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d35c3a9f4cb24e329caf5789e57dd0aa
+run_name: grandiose-fawn-152
+run_uuid: d35c3a9f4cb24e329caf5789e57dd0aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690140106813
+status: 3
+tags: []
+user_id: giuse

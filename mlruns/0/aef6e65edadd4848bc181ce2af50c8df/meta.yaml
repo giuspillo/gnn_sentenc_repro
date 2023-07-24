@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/aef6e65edadd4848bc181ce2af50c8df/artifacts
+deleted_time: 1690207127472
+end_time: 1690206258103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: aef6e65edadd4848bc181ce2af50c8df
+run_name: graph_CompGCN_k=384
+run_uuid: aef6e65edadd4848bc181ce2af50c8df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690206258093
+status: 3
+tags: []
+user_id: giuse

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/de4f729b8cae4cb0b7f07690fc2f285a/artifacts
+deleted_time: 1690140273547
+end_time: 1690139171102
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: de4f729b8cae4cb0b7f07690fc2f285a
+run_name: rare-croc-87
+run_uuid: de4f729b8cae4cb0b7f07690fc2f285a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690139171095
+status: 3
+tags: []
+user_id: giuse

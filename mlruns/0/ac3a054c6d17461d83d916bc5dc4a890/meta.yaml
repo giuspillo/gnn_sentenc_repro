@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/ac3a054c6d17461d83d916bc5dc4a890/artifacts
+deleted_time: 1690140386057
+end_time: 1690140339563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ac3a054c6d17461d83d916bc5dc4a890
+run_name: thundering-fowl-323
+run_uuid: ac3a054c6d17461d83d916bc5dc4a890
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690140339554
+status: 3
+tags: []
+user_id: giuse

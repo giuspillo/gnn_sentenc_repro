@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/93b808aaa415458dab673682f48fa662/artifacts
+deleted_time: 1690140273539
+end_time: 1690140129869
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 93b808aaa415458dab673682f48fa662
+run_name: righteous-ant-444
+run_uuid: 93b808aaa415458dab673682f48fa662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690140129861
+status: 3
+tags: []
+user_id: giuse

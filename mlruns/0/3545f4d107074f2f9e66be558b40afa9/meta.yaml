@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/3545f4d107074f2f9e66be558b40afa9/artifacts
+deleted_time: 1690140273544
+end_time: 1690139335185
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 3545f4d107074f2f9e66be558b40afa9
+run_name: charming-stork-883
+run_uuid: 3545f4d107074f2f9e66be558b40afa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690139335176
+status: 3
+tags: []
+user_id: giuse

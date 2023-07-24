@@ -1,0 +1,39 @@
+schema: '2.0'
+stages:
+  train_amar:
+    cmd: python3 3_amar.py drop_att dbbook CompGCN 384 sota_minilm-l12-v1 0.7 50
+    deps:
+    - path: data/dbbook/dbbook_CompGCN_k=384.pickle
+      hash: md5
+      md5: 6759905887ebd121608091b8a9d2e635
+      size: 54047665
+    - path: data/dbbook/dbbook_sota_minilm-l12-v1.pickle
+      hash: md5
+      md5: 9b756039ebddc809702fd522e08b89b6
+      size: 37850984
+    outs:
+    - path: data/dbbook/predictions.tsv
+      hash: md5
+      md5: 2276f06033a645aa4d6d29d411d1a03c
+      size: 380480
+  read_metrics:
+    cmd: python3 5_read_metrics.py drop_att dbbook CompGCN 384 sota_minilm-l12-v1
+      0.7 50
+    deps:
+    - path: elliot/ssrmle_results/metrics.tsv
+      hash: md5
+      md5: d22dd4570a8014e6cfb062284795f11b
+      size: 287
+  eval_predictions:
+    cmd: python3 4_eval_predictions.py drop_att dbbook CompGCN 384 sota_minilm-l12-v1
+      0.7 50
+    deps:
+    - path: data/dbbook/predictions.tsv
+      hash: md5
+      md5: 2276f06033a645aa4d6d29d411d1a03c
+      size: 380480
+    outs:
+    - path: elliot/ssrmle_results/metrics.tsv
+      hash: md5
+      md5: d22dd4570a8014e6cfb062284795f11b
+      size: 287

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/bd15605b2a584607a983734b36fc1325/artifacts
+end_time: 1690207860822
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd15605b2a584607a983734b36fc1325
+run_name: handsome-kite-27
+run_uuid: bd15605b2a584607a983734b36fc1325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690207860811
+status: 3
+tags: []
+user_id: giuse

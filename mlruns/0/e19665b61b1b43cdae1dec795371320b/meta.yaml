@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/e19665b61b1b43cdae1dec795371320b/artifacts
+deleted_time: 1690140273543
+end_time: 1690139596395
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e19665b61b1b43cdae1dec795371320b
+run_name: mercurial-skink-357
+run_uuid: e19665b61b1b43cdae1dec795371320b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690139596386
+status: 3
+tags: []
+user_id: giuse

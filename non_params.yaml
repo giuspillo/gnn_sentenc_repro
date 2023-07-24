@@ -1,0 +1,7 @@
+model:
+  type: 'drop_att'
+  dataset: 'dbbook'
+  graph_enc: 'CompGCN'
+  k: '384'
+  sent_enc: 'sota_minilm-l12-v1'
+  drop_rate: '0.7'

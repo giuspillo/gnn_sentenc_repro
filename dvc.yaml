@@ -1,0 +1,42 @@
+vars:
+  - model:
+      type: 'drop_att'
+      dataset: 'dbbook'
+      graph_enc: 'CompGCN'
+      k: 384
+      sent_enc: 'sota_minilm-l12-v1'
+      drop_rate: 0.7
+      epochs: 50
+
+stages:
+
+  train_amar:
+    cmd: python3 3_amar.py ${model.type} ${model.dataset} ${model.graph_enc} ${model.k} ${model.sent_enc} ${model.drop_rate} ${model.epochs} 
+    deps:
+      - data/${model.dataset}/${model.dataset}_${model.graph_enc}_k=${model.k}.pickle
+      - data/${model.dataset}/${model.dataset}_${model.sent_enc}.pickle
+    outs:
+      # - data/${model.dataset}/predictions/${model.type}_${model.graph_enc}_k=${model.k}_${model.sent_enc}.tsv
+      - data/${model.dataset}/predictions.tsv
+
+  eval_predictions:
+    cmd: python3 4_eval_predictions.py ${model.type} ${model.dataset} ${model.graph_enc} ${model.k} ${model.sent_enc} ${model.drop_rate} ${model.epochs} 
+      
+    deps:
+      # - data/${model.dataset}/predictions/${model.type}_${model.graph_enc}_k=${model.k}_${model.sent_enc}.tsv
+      - data/${model.dataset}/predictions.tsv
+    outs:
+      - elliot/ssrmle_results/metrics.tsv
+
+  read_metrics:
+    cmd: python3 5_read_metrics.py ${model.type} ${model.dataset} ${model.graph_enc} ${model.k} ${model.sent_enc} ${model.drop_rate} ${model.epochs} 
+    deps:
+      - elliot/ssrmle_results/metrics.tsv
+
+  # args[0] --> dataset
+  # args[1] --> graph encoder
+  # args[2] --> size of the graph encoder
+  # args[3] --> sentence encoder
+  # args[4] --> type of the model: 'graph', 'sentence', 'concat', 'att', 'drop_att'
+  # args[5] --> dropout value
+  # args[6] --> epochs

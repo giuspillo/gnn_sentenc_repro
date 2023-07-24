@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/fbf063e9cfea46a2ae319568e6970c20/artifacts
+deleted_time: 1690140273546
+end_time: 1690139248329
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fbf063e9cfea46a2ae319568e6970c20
+run_name: exultant-shrimp-996
+run_uuid: fbf063e9cfea46a2ae319568e6970c20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690139248320
+status: 3
+tags: []
+user_id: giuse

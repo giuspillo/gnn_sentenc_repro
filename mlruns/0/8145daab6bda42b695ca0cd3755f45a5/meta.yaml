@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/giuse/Desktop/Software%20Solutions%20for%20Reproducible%20ML%20Experiments/UMAP%2023%20reproducible%20results/pipeline/mlruns/0/8145daab6bda42b695ca0cd3755f45a5/artifacts
+deleted_time: 1690140273540
+end_time: 1690139836084
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8145daab6bda42b695ca0cd3755f45a5
+run_name: nervous-pig-999
+run_uuid: 8145daab6bda42b695ca0cd3755f45a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690139836074
+status: 3
+tags: []
+user_id: giuse
